@@ -1,21 +1,17 @@
-//public class Question7 {
-//    public static void main(String[] args) {
-//         int i =3 ;
-//        int sum = i +(i++);
-//        System.out.println(sum);
-//    }
-//}
-//public class Question7 {
-//    public static void main(String[] args) {
-//         int a =2, i =3;
-//        int sum = a +(++i);
-//        System.out.println(sum);
-//    }
-//}
+package pattern;
+       
 public class Question7 {
+   
     public static void main(String[] args) {
-         int a =2, i =3;
-        int sum = a +(i--);
-        System.out.println(sum);
+int nums = 1;
+        System.out.println("Enter the number of rows:" );
+        for (int i =1 ; i <=4; i++){
+            for (int j =1; j<= i; j++){
+                System.out.print(nums + " ");
+                nums++;
+            }
+            System.out.println();
+        }
+
     }
 }

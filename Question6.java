@@ -1,8 +1,15 @@
+package pattern;
+
 public class Question6 {
-    public static void main ( String[] args ){
-         int a = 5;
-         int b = 2;
-         System.out.println(a<<b);
-         System.out.println(a>>b);
+    public static void main(String[] args) {
+        
+        for(int i = 1; i <= 4; i++) {   // 4 rows
+            for(int j = 1; j <= i; j++) {
+                System.out.print("* ");
+                }
+            System.out.println();   // next line        
     }
+    
 }
+}
+
